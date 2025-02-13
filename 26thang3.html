@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kỷ Niệm 26/3 - Ngày Thành Lập Đoàn TNCS Hồ Chí Minh</title>
+    <style>
+        /* Reset cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: url('https://example.com/your-image.jpg') no-repeat center center/cover;
+            color: cyan;
+            text-align: center;
+            padding: 100px 20px;
+            font-size: 2.5em;
+        }
+        header h1 {
+            font-size: 2em;
+        }
+
+        /* Section giới thiệu */
+        .intro {
+            background: #ffffff;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: -60px;
+        }
+        .intro h2 {
+            font-size: 2.5em;
+            color: #007BFF;
+        }
+        .intro p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        /* Phần lịch sử và chức năng */
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 20px;
+            background-color: #f8f8f8;
+        }
+        .content div {
+            background-color: white;
+            padding: 30px;
+            width: 45%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .content h3 {
+            color: #007BFF;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Button */
+        .button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        
+        footer {text-align: center;background-color: blue; padding: 5px;color: white;position: fixed;bottom: 0;width: 100%;font-size: 20px; height: 60px;}
+        
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .content div {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kỷ Niệm Ngày Thành Lập Đoàn TNCS Hồ Chí Minh - 26/3</h1>
+        <p>Đoàn thanh niên, sức mạnh tuổi trẻ, vì tương lai tươi sáng của đất nước!</p>
+    </header>
+    <section class="intro fade-in">
+        <h2>Chào Mừng Ngày 26/3</h2>
+        <p>Ngày 26/3 là dịp để chúng ta ôn lại truyền thống vẻ vang của Đoàn Thanh niên Cộng sản Hồ Chí Minh. Tổ chức này đã đóng góp rất lớn trong sự nghiệp đấu tranh giải phóng dân tộc, xây dựng và bảo vệ Tổ quốc.</p>
+        <a href="https://www.bachhoaxanh.com/kinh-nghiem-hay/ngay-thanh-lap-doan-tncs-ho-chi-minh-26-3-lich-su-y-nghia-1510106?srsltid=AfmBOooYBXKBCZehd691MxcK1SuUDl7ri7TGW5AVrCe30iuF1Ttgyylt" >Tìm Hiểu Lịch Sử</a>
+    </section>
+
+    <!-- Lịch sử và Chức năng -->
+    <section class="content">
+        <div class="fade-in">
+            <h3>Lịch Sử Đoàn TNCS Hồ Chí Minh</h3>
+            <p>Được thành lập vào ngày 26 tháng 3 năm 1931, Đoàn TNCS Hồ Chí Minh đã trở thành lực lượng quan trọng, là cánh tay đắc lực của Đảng Cộng sản Việt Nam trong công cuộc đấu tranh giành độc lập dân tộc và xây dựng đất nước.</p>
+        </div>
+        <div class="fade-in">
+            <h3>Chức Năng và Vai Trò</h3>
+            <p>Đoàn TNCS Hồ Chí Minh là tổ chức chính trị xã hội quan trọng của thanh niên Việt Nam. Đoàn viên thanh niên tham gia các hoạt động tình nguyện, giáo dục, bảo vệ môi trường và xây dựng xã hội, đóng góp vào sự phát triển chung của đất nước.</p>
+        </div>
+    </section>
+    <footer>
+        <p>Báo tường Hiên Nguyễn</p>
+    </footer>
+    <script>
+        // Hiệu ứng cuộn mượt
+        .addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            window.scrollTo({
+                top: target.offsetTop - 50,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+</body>
+</html>
